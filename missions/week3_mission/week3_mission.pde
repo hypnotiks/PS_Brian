@@ -1,5 +1,17 @@
 /*
-from demo on for loops
+Week 3 mission
+4 'states' that can be cycled through when key 's' is pressed
+LINES
+ * Draws a series of circles in a square in the middle of the view
+ * then draws lines from these circles to the location of the mouse cursor
+TRIANGLE
+ * Same as above, except trangles are drawn with the points being center of circle, mouse location, and center of view
+CIRCLE
+ * Draws a circle at the middle of the view. Draws a square in a random location. Use arrow keys to navigate circle to square
+ * On collision, update the score string
+FIREWORKS
+ * Draw random square as above.
+ * When mouse enters it, draw a 'firework' at that location
 */
 
 int r=255, g=255, b=255;
